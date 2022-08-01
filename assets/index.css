@@ -10,30 +10,32 @@ body {
     .cardsContainer {
         display: flex;
         flex-direction: row;
-        height: auto;
-        width: auto;
+        /* height: auto; */
+        max-width: 900px;
+        /* width: auto; */
 
         border-radius: 10px;
         overflow: hidden;
     }
         .card.one {
             background-color: hsl(31, 77%, 52%);
-            width: 320px;
+            max-width: 320px;
             height: 510px;
         }
         .card.two {
             background-color: hsl(184, 100%, 22%);
-            width: 320px;
+            max-width: 320px;
             height: 510px;
         }
         .card.three {
             background-color: hsl(179, 100%, 13%);
-            width: 320px;
+            max-width: 320px;
             height: 510px;
         }
             .cardContainer {
-                margin-top: 50px;
-                margin-left: 50px;
+                /* margin-top: 50px; */
+                /* margin-left: 50px; */
+                margin: 50px;
             }
                 h1 {
                     color: hsl(0, 0%, 95%);
@@ -49,7 +51,7 @@ body {
                     font-weight: 400;
                     font-size: 15px;
                     line-height: 25px;
-                    width: 210px;
+                    max-width: 210px;
                     margin-bottom: 80px;
                 }
                 .button.one {
@@ -119,9 +121,10 @@ footer {
     }
         .card.one, .card.two, .card.three {
             height: 470px;
+            /* max-width: 320px; */
         }
             .description {
-                width: 225px;
+                max-width: 225px;
                 margin-bottom: 40px;
             }
 }
